@@ -6,4 +6,5 @@ RUN apt-get update && \
 ADD config /config
 ADD consul /bin/consul
 
+ENTRYPOINT ["/bin/consul"]
 
